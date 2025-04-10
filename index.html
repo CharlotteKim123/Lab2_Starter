@@ -117,55 +117,53 @@
             <input type="radio" id="age1" name="age1" value="less-than-18">
             <label for="age1">Less than 18</label><br>
             <input type="radio" id="age2" name="age2" value="18-30">
-            <label for="css">CSS</label>18 to 30<br>
+            <label for="age2">18 to 30</label><br>
             <input type="radio" id="age3" name="age3" value="30-50">
             <label for="javascript">30 to 50</label>
             <input type="radio" id="age4" name="age4" value="more-than-50">
             <label for="javascript">More than 50</label>
           </fieldset>
 
-          <p>Education Completed</p>
-          <input type="checkbox" id="ed1" name="ed1" value="High School">
-          <label for="ed1">High School</label><br>
-          <input type="checkbox" id="ed2" name="ed2" value="College">
-          <label for="ed2">College</label><br>
-          <input type="checkbox" id="ed3" name="ed3" value="Graduate School">
-          <label for="ed3">Graduate School</label><br><br>
-          <input type="checkbox" id="ed4" name="ed4" value="Professional School">
-          <label for="ed4">Professional School</label><br><br>
-          <input type="submit" value="Submit">
+          <fieldset>
+            <p>Education Completed</p>
+            <input type="checkbox" id="ed1" name="ed1" value="High School">
+            <label for="ed1">High School</label><br>
+            <input type="checkbox" id="ed2" name="ed2" value="College">
+            <label for="ed2">College</label><br>
+            <input type="checkbox" id="ed3" name="ed3" value="Graduate School">
+            <label for="ed3">Graduate School</label><br><br>
+            <input type="checkbox" id="ed4" name="ed4" value="Professional School">
+            <label for="ed4">Professional School</label><br><br>
+            <input type="submit" value="Submit">
+          </fieldset>
 
-          <label for="Grade">Your Grade:</label>
-          <input list="grades" name="grade" id="grade">
-          <datalist id="grades">
-            <option value="Freshmen">
-            <option value="Sophomore">
-            <option value="Junior">
-            <option value="Senior">
-            <option value="Beyond">
-          </datalist>
-          <input type="submit">
           
-          <label for="Continent">Choose the continent you are from:</label>
-          <select name="continent" id="continent">
-            <option value="nAm">North America</option>
-            <option value="sAm">South America</option>
-            <option value="euro">Europe</option>
-            <option value="Af">Africa</option>
-            <option value="As">Asia</option>
-            <option value="aus">Australia</option>
-          </select>
-          <br><br>
-          <input type="submit" value="Submit">
+          <fieldset>
+            <label for="Grade">Your Grade:</label>
+            <input list="grades" name="grade" id="grade">
+            <datalist id="grades">
+              <option value="Freshmen">
+              <option value="Sophomore">
+              <option value="Junior">
+              <option value="Senior">
+              <option value="Beyond">
+            </datalist>
+            <input type="submit">
+          </fieldset>
 
-          <label for="faang">Choose FAANG:</label>
-          <select id="faang">
-            <option value="facebook">Facebook</option>
-            <option value="amazon">Amazon</option>
-            <option value="apple">Apple</option>
-            <option value="netflix">Netflix</option>
-            <option value="google">Google</option>
-          </select>
+          <fieldset>
+            <label for="Continent">Choose the continent you are from:</label>
+            <select name="continent" id="continent">
+              <option value="nAm">North America</option>
+              <option value="sAm">South America</option>
+              <option value="euro">Europe</option>
+              <option value="Af">Africa</option>
+              <option value="As">Asia</option>
+              <option value="aus">Australia</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+          </fieldset>
 
           <button type="button" onclick="alert('Welcome!')">Click Here</button>
       </form>
